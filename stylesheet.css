@@ -1,0 +1,106 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: serif;
+}  
+
+html,body,ul,ol,li,h1,h2,h3,h4,h5,h6,p,div{
+  padding: 0;
+  margin:0;
+}
+
+header{
+  background-color: #444444;
+  color: white;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+  opacity: 0.8;
+}
+
+header a{
+  float: right;
+  color: white;
+  opacity: 0.7;
+  line-height: 80px;
+  padding: 0 10px;
+  display: inline-block;
+  background-color:#808080;
+}
+
+header a:hover{
+  opacity: 1;
+}
+
+header h2{
+  float: left;
+  line-height: 80px;
+}
+
+
+
+.top-wrapper{
+  background-image: url(https://images.unsplash.com/photo-1548612164-97dc6e0ec9fb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=formaat&fit=crop&w=1050&q=80);
+  background-size: cover;
+  color: white;
+  text-align: center;
+  margin-top: 0;
+  display: inline-block;
+  width: 100%;
+  padding: 200px 0 160px 0;
+}
+
+.top-wrapper h1{
+  font-size: 80px;
+}
+
+.top-wrapper p{
+  font-size: 15px;
+}
+
+.container{
+  margin: 0 auto;
+  max-width: 1350px;
+  width: 100%;
+}
+
+.heading{
+  border-bottom: 1px solid #808080;
+  padding-bottom: 15px;
+  font-size: 30px;
+}
+
+.lesson-wrapper li{
+  font-size: 20px;
+}
+
+.lesson-wrapper p{
+  font-size: 20px;
+}
+
+.para{
+  padding-bottom: 80px;
+}
+
+.introduce h2{
+  padding-top: 50px;
+}
+
+footer{
+  border-top: 2px solid #eee;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+footer h6{
+  font-size: 15px;
+  color: #555555;
+}
+
+footer p{
+  font-size: 13px;
+  color: #696969;
+}
